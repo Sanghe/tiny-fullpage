@@ -10,4 +10,16 @@ Browser Upgrade Prompt
   color: #000;
   padding: 0.2em 0; }
 
+.fafa {
+  fill: transparent;
+  stroke-width: 1;
+  stroke: #365975;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: dash 4s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
 /*# sourceMappingURL=styles.css.map */
