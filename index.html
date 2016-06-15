@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="Web solutions made easy">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" data-menuanchor="1st"><a href="#1st">Section 1</a></li>         
+            <li data-menuanchor="2nd" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Section 2 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#2nd/0">Slide 1</a></li>
+                  <li><a href="#2nd/1">Slide 2</a></li>
+                  <li><a href="#2nd/2">Slide 3</a></li>
+                  <li><a href="#2nd/3">Slide 4</a></li>
+                  <li role="separator" class="divider"></li>
+                </ul>
+            </li>
+              
+            <li data-menuanchor="3rd"><a href="#3rd">Section 3</a></li>
+            <li data-menuanchor="4th"><a href="#4th">Section 4</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+    </nav>
+
+    <div id="fullpage">
+
+      <div class="section"><!-- FIRST PAGE -->
+        <div class="container text-center">
+          <h1>Hello</h1>
+        </div>
+      </div>
+
+      <div class="section"><!-- SECOND PAGE -->
+
+          <div class="slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 text-center">Slide 1 - Box 1</div>
+                <div class="col-md-6 text-center">Slide 1 - Box 2</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 text-center">Slide 2 - Box 1</div>
+                <div class="col-md-6 text-center">Slide 2 - Box 2</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 text-center">Slide 3 - Box 1</div>
+                <div class="col-md-6 text-center">Slide 3 - Box 2</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 text-center">Slide 4 - Box 1</div>
+                <div class="col-md-6 text-center">Slide 4 - Box 2</div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="section"><!-- THIRD PAGE -->
+        Some section
+      </div>
+
+      <div class="section"><!-- FOURTH PAGE -->
+        Some section
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
