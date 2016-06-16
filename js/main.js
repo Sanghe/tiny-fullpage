@@ -24,7 +24,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['1st', '2nd', '3rd', '4th'],
-        sectionsColor: ['#182733', '#1BBC9B', '#7E8F7C', '#7baabe'],
+        sectionsColor: ['#11151e', '#1BBC9B', '#7E8F7C', '#7baabe'],
         menu: '#navbar'
     });
 });

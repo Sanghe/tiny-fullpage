@@ -15,17 +15,49 @@ Browser Upgrade Prompt
   padding: 0.2em 0;
 }
 
-.fafa {
+.box {
 	fill: transparent;
-	stroke-width: 1;
-	stroke: #365975;
-	stroke-dasharray: 600;
-	stroke-dashoffset: 600;
-	animation: dash 4s linear forwards;
+	stroke-width: 10;
+	stroke: #2fc783;
+	stroke-dasharray: 300000;
+	stroke-dashoffset: 300000;
+	animation: dash 3s linear forwards, color 5s linear forwards;
 }
 
 @keyframes dash {
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 0;    
   }
+}
+
+@keyframes color {
+	50%  {fill: transparent;}
+	100% {fill: #0b7143;}
+}
+
+#hero {
+
+	svg {
+  	display: inline-block;
+  	width: 40%;
+  	max-width: 500px;
+  	border: 1px solid #11151e;
+  	border-radius: 50%;
+  	animation: bg 6s linear forwards;
+  }
+}
+
+@keyframes bg {
+	50%  {
+		background-color: transparent;
+		border: 1px solid #11151e;
+		box-shadow: none;
+	}
+	100% {
+		border: 1px solid whitesmoke;
+		background-color: #fff;
+		-webkit-box-shadow: 0px 0px 40px 0px rgba(200,205,240,0.4);
+		-moz-box-shadow: 0px 0px 40px 0px rgba(200,205,240,0.4);
+		box-shadow: 0px 0px 40px 0px rgba(200,205,240,0.4);
+	}
 }
