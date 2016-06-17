@@ -26,6 +26,8 @@ Navigation
 
 #hero {
 	overflow: hidden;
+	background: url('../images/woods.png') no-repeat bottom center;
+	background-size: contain;
 
 	.limit-svg {
   	display: inline-block;
@@ -45,7 +47,6 @@ Navigation
   	}
   }
 }
-
 
 .full-svg {
 	display: block;
